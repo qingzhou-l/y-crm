@@ -7,6 +7,7 @@ specifiers:
   '@types/react-dom': ^18.0.11
   '@umijs/max': ^4.0.86
   antd: ^5.4.0
+  dayjs: ^1.11.10
   husky: ^8.0.3
   lint-staged: ^13.2.0
   prettier: ^2.8.7
@@ -20,6 +21,7 @@ dependencies:
   '@ant-design/pro-components': 2.6.30_antd@5.10.1
   '@umijs/max': 4.0.86_y4yd7wbocqvzhdw37wpgsedaca
   antd: 5.10.1
+  dayjs: 1.11.10
 
 devDependencies:
   '@types/react': 18.2.28

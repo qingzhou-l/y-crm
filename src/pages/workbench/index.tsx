@@ -4,7 +4,7 @@ import CommonlyUsed from '@/pages/workbench/component/CommonlyUsed';
 import DataOverview from '@/pages/workbench/component/DataOverview';
 import { EllipsisOutlined } from '@ant-design/icons';
 import { StatisticCard } from '@ant-design/pro-components';
-import { Col,Row,Space } from 'antd';
+import { Col, Row, Space } from 'antd';
 import React from 'react';
 
 const Workbench: React.FC = () => {
