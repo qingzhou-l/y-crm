@@ -55,12 +55,13 @@ const columns: ProColumns<CustomPageItem>[] = [
   {
     dataIndex: 'createAt',
     title: '创建时间',
+    valueType: 'date',
     renderText: (text) => dayjs(text).format('YYYY-MM-DD'),
   },
   {
     dataIndex: 'remark',
     title: '备注',
-    renderText:(text)=>text.length>0?text:'--'
+    renderText: (text) => (text.length > 0 ? text : '--'),
   },
   {
     valueType: 'option',

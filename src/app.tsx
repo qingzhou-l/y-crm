@@ -16,6 +16,7 @@ const { Search } = Input;
 export const layout = () => {
   return {
     layout: 'mix',
+    fixSiderbar:true,
     // fixedHeader:true,
     logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
     menu: {
