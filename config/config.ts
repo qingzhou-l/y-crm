@@ -1,5 +1,5 @@
-import { defineConfig } from '@umijs/max';
-import routes from './routes';
+import { defineConfig } from "@umijs/max";
+import routes from "./routes";
 
 export default defineConfig({
   antd: {},
@@ -8,8 +8,9 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '易商城管理平台',
+    title: "易商城管理平台",
   },
   routes,
-  npmClient: 'pnpm',
+  npmClient: "pnpm",
+  tailwindcss: {},
 });
